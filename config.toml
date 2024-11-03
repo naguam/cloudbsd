@@ -1,0 +1,44 @@
+base_url = "https://cloudbsd.xyz"
+title = "CloudBSD.xyz"
+default_language = "en"
+description = "Overcome most cloud providers' limitations and use the system of your choice (NetBSD)"
+
+taxonomies = [
+    {name = "tags"}
+]
+
+compile_sass = true
+
+build_search_index = false
+
+theme = "terminimal"
+
+[markdown]
+highlight_code = true
+highlight_theme = "boron"
+
+[extra]
+accent_color = "orange"
+background_color = "orange"
+logo_text = "CloudBSD.xyz"
+copyright_html="© 2024 Naguam :: Made with 🧡 using&nbsp<a href='https://www.getzola.org/'>Zola</a>:: Theme:&nbsp<a href='https://github.com/pawroman/zola-theme-terminimal/'>Terminimal</a>&nbspby pawroman"
+
+enable_post_view_navigation = false
+use_full_hack_font = true
+post_view_navigation_prompt = "Thanks for reading!"
+
+favicon = "/favicon.svg"
+favicon_mimetype = "image/svg"
+
+page_titles = "main_only"
+
+# minify
+# https://github.com/getzola/zola/issues/542
+
+[languages.fr]
+title = "CloudBSD.xyz"
+description = "Dépassez les limitations des hébergeurs cloud et utilisez le système de votre choix (NetBSD)"
+
+taxonomies = [
+    {name = "tags"}
+]
